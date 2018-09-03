@@ -95,6 +95,9 @@
     <PackageReference Include="Com.Airbnb.Android.Lottie">
       <Version>2.5.4</Version>
     </PackageReference>
+    <PackageReference Include="Refractored.PagerSlidingTabStrip">
+      <Version>1.1.6</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
   </ItemGroup>
   <ItemGroup />

@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent">
+    <com.refractored.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:textColorPrimary="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="15dp"
+        app:pstsPaddingMiddle="false"
+        app:pstsTextColorSelected="#FFF"
+        app:pstsIndicatorColor="#C59805"
+        app:pstsTextAllCaps="false"
+        app:pstsShouldExpand="true" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#f00" />
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animation_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:lottie_imageAssetsFolder="Assets"
         app:lottie_loop="false" />
-</RelativeLayout>
+</LinearLayout>
