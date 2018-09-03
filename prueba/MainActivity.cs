@@ -32,7 +32,7 @@ namespace prueba
 
 
             viewPager.Adapter = adapter;
-            tabStrip.SetViewPager(viewPager);
+            //tabStrip.SetViewPager(viewPager);
             tabStrip.SetBackgroundColor(Android.Graphics.Color.Black);
 
             LottieAnimationView downloadAnimation = (LottieAnimationView)FindViewById(Resource.Id.animation_view);
